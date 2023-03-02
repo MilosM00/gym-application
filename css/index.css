@@ -190,3 +190,40 @@
 }
 
 /* END HERO */
+
+/* START MORE INFO */
+
+.more-info{
+    background-color: #dcdcdc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.more-info > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.more-info > div > img{
+    width: 100px;
+    height: 100px;
+}
+
+.more-info > div > p{
+    font-size: 18px;
+}
+
+/* END MORE INFO */

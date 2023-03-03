@@ -197,13 +197,22 @@
     background-color: #dcdcdc;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.more-info > p{
+    padding-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.more-info-div{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
-.more-info > div{
+.more-info-div > div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,13 +226,28 @@
     border-radius: 10px;
 }
 
-.more-info > div > img{
+.more-info-div > div > img{
     width: 100px;
     height: 100px;
 }
 
-.more-info > div > p{
+.more-info-div > div > p{
     font-size: 18px;
+}
+
+@media (max-width: 970px) {
+    .more-info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .more-info-div{
+        flex-direction: column;
+    }
+
+    .more-info-div > div{
+        width: 100%;
+    }
 }
 
 /* END MORE INFO */

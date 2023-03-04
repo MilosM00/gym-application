@@ -194,7 +194,7 @@
 /* START MORE INFO */
 
 .more-info{
-    background-color: #dcdcdc;
+    background-color: #fff;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -217,7 +217,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #d8d8d8;
     gap: 20px;
     padding: 10px;
     text-align: center;
@@ -251,3 +251,36 @@
 }
 
 /* END MORE INFO */
+
+/* START TAPE */
+.tape{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d8d8d8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tape > p{
+    font-size: 20px;
+}
+
+.tape > a{
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 200px;
+    border: 2px solid #000;
+    transition: 0.4s;
+}
+
+.tape > a:hover{
+    background-color: transparent;
+    color: #000;
+}
+/* END TAPE */

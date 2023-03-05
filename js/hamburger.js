@@ -34,3 +34,4 @@ hamburgerLi[0].addEventListener("click", () =>{ hamburgerFalse(); });
 hamburgerLi[1].addEventListener("click", () =>{ hamburgerFalse(); });
 hamburgerLi[2].addEventListener("click", () =>{ hamburgerFalse(); });
 hamburgerLi[3].addEventListener("click", () =>{ hamburgerFalse(); });
+hamburgerLi[4].addEventListener("click", () =>{ hamburgerFalse(); });

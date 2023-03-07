@@ -402,3 +402,127 @@ body{
 }
 
 /* END INSTRUCTORS */
+
+/* START PRICELIST */
+
+.pricelist{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.pricelist > p{
+    font-size: 22px;
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+
+.pricelist-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.price-one,
+.price-three{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    color: #000;
+    width: 300px;
+    height: 400px;
+}
+
+.price-two{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(to right, #CC5500, #F28C28);
+    border-radius: 10px;
+    color: #fff;
+    width: 300px;
+    height: 500px;
+}
+
+.price-one > button,
+.price-three > button{
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    width: 150px;
+    text-align: center;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+.price-two > button{
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+    width: 150px;
+    text-align: center;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+.price-two > div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    right: 20px;
+
+    background-color: #fff;
+    color: #000;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.price-one > p,
+.price-two > p,
+.price-three > p{
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.price-one > ul,
+.price-two > ul,
+.price-three > ul{
+    padding-top: 50px;
+}
+.price-one > ul > li,
+.price-two > ul > li,
+.price-three > ul > li{
+    list-style: none;
+}
+
+@media (max-width: 970px) {
+    .pricelist-div{
+        flex-direction: column;
+    }
+}
+
+/* END PRICELIST */

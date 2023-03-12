@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="js/hamburger.js" defer></script>
     <script src="js/index.js" defer></script>
+    <script src="js/modal.js" defer></script>
     <title>GYM</title>
 </head>
 <body>
@@ -168,7 +169,7 @@
                     <li>✔ Lorem ipsum dolor</li>
                     <li>✔ Lorem ipsum dolor</li>
                 </ul>
-                <button>BUY</button>
+                <button class="button-price">BUY</button>
             </div>
             
             <div class="price-two">
@@ -184,7 +185,7 @@
                     <li>✔ Lorem ipsum dolor</li>
                     <li>✔ Lorem ipsum dolor</li>
                 </ul>
-                <button>BUY</button>
+                <button class="button-price">BUY</button>
                 <div><i class="fa fa-star"></i></div>
             </div>
             
@@ -197,7 +198,7 @@
                     <li>✔ Lorem ipsum dolor</li>
                     <li>✔ Lorem ipsum dolor</li>
                 </ul>
-                <button>BUY</button>
+                <button class="button-price">BUY</button>
             </div>
 
         </div>
@@ -254,6 +255,17 @@
         year.textContent = date.getFullYear();
     </script>
     <!-- END AFTER FOOTER -->
+
+    <!-- START MODAL -->
+    <div class="modal"></div>
+    <div class="modal-box">
+        <i class="fa fa-times" id="close-modal"></i>
+        <i class="fa fa-info" id="info-circle"></i>
+        <p>Are you sure that you want <b><span class="pack-name"></span></b> pack?</p>
+        <p><span class="pack-name"></span> pack costs <span class="pack-price"></span> $</p>
+        <a href="#" class="pack-url">BUY</a>
+    </div>
+    <!-- END MODAL -->
 
 </body>
 </html>

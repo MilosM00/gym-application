@@ -77,19 +77,18 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    color: #1a1a1a;
+    color: #000;
     background-color: #fff;
     border-radius: 4px;
     width: 35px;
     height: 35px;
     text-decoration: none;
     transition: 0.4s;
-    border: 2px solid #fff;
 }
 
 .center-footer > div > a:hover{
-    color:#F28C28;
-    background-color: transparent;
+    color:#fff;
+    background-color: #F28C28;
 }
 /* END FOOTER */
 
@@ -118,3 +117,5 @@ footer{
 /* END AFTER FOOTER */
 
 </style>
+
+<?php // THIS IS PHP ?>

@@ -1,7 +1,7 @@
 <!-- START FOOTER -->
 <footer>
     <div class="center-footer">
-        <a href="#"><img src="images/barbell-logo.jpg" alt="gym" /></a>
+        <a href="index.php#"><img src="images/barbell-logo.jpg" alt="gym" /></a>
         <p>
             Don't give up on your dreams, or your dreams will give up on you. <br />
             Be a better version of yourself, we can help you!

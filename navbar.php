@@ -1,7 +1,7 @@
 <!-- START BEFORE NAV -->
 
 <div class="before-nav">
-    <a href="#">Register</a>
+    <a href="register.php">Register</a>
     <a href="#">Log In</a>
 </div>
 
@@ -10,24 +10,24 @@
 <!-- START NAV -->
 
 <nav class="nav">
-    <a href="#"><img src="images/barbell-logo.jpg" alt="gym" /></a>
+    <a href="index.php#"><img src="images/barbell-logo.jpg" alt="gym" /></a>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#instructor">Instructors</a></li>
-        <li><a href="#pricelist">Pricelist</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.php#">Home</a></li>
+        <li><a href="index.php#about">About</a></li>
+        <li><a href="index.php#instructor">Instructors</a></li>
+        <li><a href="index.php#pricelist">Pricelist</a></li>
+        <li><a href="index.php#contact">Contact</a></li>
     </ul>
     <i id="hamburger-button" class="fa fa-bars"></i>
 </nav>
 
 <div class="hamburger-nav">
     <ul>
-        <li class="hamburger-li"><a href="#">Home</a></li>
-        <li class="hamburger-li"><a href="#about">About</a></li>
-        <li class="hamburger-li"><a href="#instructor">Instructors</a></li>
-        <li class="hamburger-li"><a href="#pricelist">Pricelist</a></li>
-        <li class="hamburger-li"><a href="#contact">Contact</a></li>
+        <li class="hamburger-li"><a href="index.php">Home</a></li>
+        <li class="hamburger-li"><a href="index.php#about">About</a></li>
+        <li class="hamburger-li"><a href="index.php#instructor">Instructors</a></li>
+        <li class="hamburger-li"><a href="index.php#pricelist">Pricelist</a></li>
+        <li class="hamburger-li"><a href="index.php#contact">Contact</a></li>
     </ul>
 </div>
 

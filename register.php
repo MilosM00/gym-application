@@ -23,7 +23,7 @@
 
         <p>Please, enter your data.</p>
 
-        <form class="form" method="POST" action="register-successful.php">
+        <form class="form" method="POST" action="register-success.php">
 
             <label class="label-first-name">First Name</label>
             <input class="input-first-name" style="margin-bottom: 30px;" type="text" placeholder="Your First Name..." name="firstName" />

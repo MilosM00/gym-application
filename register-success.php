@@ -11,7 +11,22 @@
     <script src="js/hamburger.js" defer></script>
     <title>Register - Success</title>
 </head>
-<body>
+<body>  
+
+    <?php
+    
+        include("dbconnection.php");
+    
+        $firstName = $_POST["firstName"];
+        $lastName = $_POST["lastName"];
+        $email = $_POST["email"];
+        $phone = $_POST["phone"];
+
+        $code = $connection->prepare("insert into Customer(CustomerFirstName, CustomerLastName, CustomerEmail, CustomerPhone) values(?, ?, ?, ?)");
+        $code->bind_param("ssss", $firstName, $lastName, $email, $phone);
+        $code->execute();
+
+    ?>
     
     <!-- START navbar.php -->
     <?php include("navbar.php"); ?>

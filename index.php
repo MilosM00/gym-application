@@ -211,7 +211,7 @@
     <div class="modal-box">
         <i class="fa fa-times" id="close-modal"></i>
         <i class="fa fa-info" id="info-circle"></i>
-        <p>Are you sure that you want <b><span class="pack-name"></span></b> pack?</p>
+        <p>Are you sure that you want <b><span class="pack-name" style="color:#F28C28;"></span></b> pack?</p>
         <p><span class="pack-name"></span> pack costs <span class="pack-price"></span> $</p>
         <a href="#" class="pack-url">BUY</a>
     </div>

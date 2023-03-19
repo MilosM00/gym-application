@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2c28c53cee.js" crossorigin="anonymous" defer></script>
     <script src="js/hamburger.js" defer></script>
-    <script src="js/form.js" defer></script>
+    <script src="js/register-form.js" defer></script>
     <title>Register</title>
 </head>
 <body>
@@ -31,11 +31,14 @@
             <label class="label-last-name">Last Name</label>
             <input class="input-last-name" style="margin-bottom: 30px;" type="text" placeholder="Your Last Name..." name="lastName" />
             
+            <label class="label-phone">Phone Number</label>
+            <input class="input-phone" style="margin-bottom: 30px;" type="text" placeholder="Your Phone Number..." name="phone" />
+
             <label class="label-email">Email Address</label>
             <input class="input-email" style="margin-bottom: 30px;" type="text" placeholder="Your Email Address..." name="email" />
             
-            <label class="label-phone">Phone Number</label>
-            <input class="input-phone" style="margin-bottom: 30px;" type="text" placeholder="Your Phone Number..." name="phone" />
+            <label class="label-password">Password</label>
+            <input class="input-password" style="margin-bottom: 30px;" type="password" placeholder="Your Password..." name="password" />
 
             <input class="button-submit" type="submit" value="SUBMIT" />
 

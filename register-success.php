@@ -21,9 +21,10 @@
         $lastName = $_POST["lastName"];
         $email = $_POST["email"];
         $phone = $_POST["phone"];
+        $password = $_POST["password"];
 
-        $code = $connection->prepare("insert into Customer(CustomerFirstName, CustomerLastName, CustomerEmail, CustomerPhone) values(?, ?, ?, ?)");
-        $code->bind_param("ssss", $firstName, $lastName, $email, $phone);
+        $code = $connection->prepare("insert into Customer(CustomerFirstName, CustomerLastName, CustomerEmail, CustomerPhone, CustomerPassword) values(?, ?, ?, ?, ?)");
+        $code->bind_param("sssss", $firstName, $lastName, $email, $phone, $password);
         $code->execute();
 
     ?>

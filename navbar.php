@@ -2,7 +2,7 @@
 
 <div class="before-nav">
     <a href="register.php">Register</a>
-    <a href="#">Log In</a>
+    <a href="login.php">Log In</a>
 </div>
 
 <!-- END BEFORE NAV -->

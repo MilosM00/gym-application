@@ -23,7 +23,7 @@
 
 <div class="hamburger-nav">
     <ul>
-        <li class="hamburger-li"><a href="index.php">Home</a></li>
+        <li class="hamburger-li"><a href="index.php#">Home</a></li>
         <li class="hamburger-li"><a href="index.php#about">About</a></li>
         <li class="hamburger-li"><a href="index.php#instructor">Instructors</a></li>
         <li class="hamburger-li"><a href="index.php#pricelist">Pricelist</a></li>

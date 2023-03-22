@@ -1,12 +1,3 @@
-<!-- START BEFORE NAV -->
-
-<div class="before-nav">
-    <a href="register.php">Register</a>
-    <a href="login.php">Log In</a>
-</div>
-
-<!-- END BEFORE NAV -->
-
 <!-- START NAV -->
 
 <nav class="nav">
@@ -126,31 +117,6 @@
 }
 
 /* END NAV */
-
-/* START BEFORE NAV */
-
-.before-nav{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 20px;
-    background-color: #1a1a1a;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 10px;
-}
-
-.before-nav > a{
-    background-color: #F28C28;
-    color: #fff;
-    padding: 5px;
-    border-radius: 4px;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
-}
-
-/* END BEFORE NAV */
 
 </style>
 

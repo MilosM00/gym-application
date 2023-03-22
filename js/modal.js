@@ -26,7 +26,7 @@ buttonPrice[0].addEventListener("click", () =>{
     packName[0].textContent = "Lorem";
     packName[1].textContent = "Lorem";
     packPrice.textContent = "50";
-    packURL.href = "#";
+    packURL.href = "form.php?pack=Lorem";
 });
 
 buttonPrice[1].addEventListener("click", () =>{
@@ -35,7 +35,7 @@ buttonPrice[1].addEventListener("click", () =>{
     packName[0].textContent = "Ipsum";
     packName[1].textContent = "Ipsum";
     packPrice.textContent = "70";
-    packURL.href = "#";
+    packURL.href = "form.php?pack=Ipsum";
 });
 
 buttonPrice[2].addEventListener("click", () =>{
@@ -44,5 +44,5 @@ buttonPrice[2].addEventListener("click", () =>{
     packName[0].textContent = "Dolor";
     packName[1].textContent = "Dolor";
     packPrice.textContent = "100";
-    packURL.href = "#";
+    packURL.href = "form.php?pack=Dolor";
 });

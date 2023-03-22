@@ -508,7 +508,15 @@ body{
 }
 
 #info-circle{
-    font-size: 50px;
+    font-size: 40px;
+    border: 2px solid #F28C28;
+    color: #F28C28;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-box > p{
